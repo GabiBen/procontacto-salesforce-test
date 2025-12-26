@@ -95,7 +95,7 @@ A GET request was sent to retrieve the existing contacts stored in the service.
 
 The response returned a JSON object containing the list of stored contacts.
 
-(Screenshot: GET request response)
+![GET request](get_request.png)
 
 ### POST request
 A POST request was sent to create a new contact.
@@ -110,14 +110,14 @@ Request body:
 }
 The response returned a unique identifier for the newly created record.
 
-(Screenshot: POST request response)
+![POST request](post_name.png)
 
 GET request (verification)
 A final GET request was executed to verify that the new contact was successfully stored.
 
 The response confirmed that the newly created record appears in the list of contacts.
 
-(Screenshot: GET verification response)
+![GET verification](get_verification.png)
 
 ---
 
