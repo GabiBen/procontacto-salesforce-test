@@ -126,8 +126,30 @@ The response confirmed that the newly created record appears in the list of cont
 
 ---
 
+
 ## Exercise 5 – Salesforce Objects and Relationships
-(ACÁ DESPUÉS PEGÁS EL CONTENIDO TEÓRICO QUE YA ARMAMOS)
+
+Salesforce data is organized using standard objects that represent real business entities.
+The following section describes the main objects involved in a typical sales and service process and how they relate to each other.
+
+### Main Objects
+
+- Lead: Represents a potential customer who has not yet been qualified.
+- Account: Represents a company or customer organization.
+- Contact: Represents a person associated with an Account.
+- Opportunity: Represents a potential sales deal linked to an Account.
+- Case: Represents a customer support request.
+- Product: Represents a product or service offered by the company.
+
+### Relationships Overview
+
+- A Lead can be converted into an Account, Contact and Opportunity.
+- An Account can have multiple Contacts and Opportunities.
+- An Opportunity belongs to one Account and may include Products.
+- A Case is linked to an Account and optionally to a Contact.
+
+These relationships allow Salesforce to track the full customer lifecycle, from initial contact to sales and post-sale support.
+
 
 ---
 
