@@ -85,7 +85,39 @@ The Content-Type header specifies the format of the data being sent, such as app
 
 
 ## Exercise 3 – Postman Requests
-(ACÁ DESPUÉS EXPLICÁS LOS REQUESTS Y PEGÁS LAS IMÁGENES)
+Three HTTP requests were executed using Postman in order to interact with the provided endpoint.
+
+### GET request
+A GET request was sent to retrieve the existing contacts stored in the service.
+
+- Method: GET  
+- URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
+
+The response returned a JSON object containing the list of stored contacts.
+
+(Screenshot: GET request response)
+
+### POST request
+A POST request was sent to create a new contact.
+
+- Method: POST  
+- URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
+
+Request body:
+{
+  "name": "Gabriel Benitez",
+  "email": "gabriel.benitez@procontacto.com.mx"
+}
+The response returned a unique identifier for the newly created record.
+
+(Screenshot: POST request response)
+
+GET request (verification)
+A final GET request was executed to verify that the new contact was successfully stored.
+
+The response confirmed that the newly created record appears in the list of contacts.
+
+(Screenshot: GET verification response)
 
 ---
 
