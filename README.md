@@ -60,7 +60,6 @@ Browsers generally use the GET verb to request web pages.
 JSON and XML are data exchange formats.
 
 JSON example:
-json
 {
   "name": "Juan",
   "email": "juan@mail.com"
@@ -112,7 +111,7 @@ The response returned a unique identifier for the newly created record.
 
 ![POST request](post_name.png)
 
-GET request (verification)
+### GET request (verification)
 A final GET request was executed to verify that the new contact was successfully stored.
 
 The response confirmed that the newly created record appears in the list of contacts.
@@ -122,7 +121,19 @@ The response confirmed that the newly created record appears in the list of cont
 ---
 
 ## Exercise 4 – Trailhead Modules
-(ACÁ DESPUÉS PEGÁS EL LINK A TU PERFIL DE TRAILHEAD)
+
+All the requested Trailhead modules were completed using the same Playground, with the platform language set to English, as required.
+
+Completed modules:
+- Salesforce Platform Fundamentals
+- Apex and .NET Fundamentals
+- Data Modeling
+- Apex Fundamentals and Database
+- Apex Triggers
+- Apex Integration Services
+
+Trailhead public profile:
+https://www.salesforce.com/trailblazer/gabrielben
 
 ---
 
@@ -150,11 +161,126 @@ The following section describes the main objects involved in a typical sales and
 
 These relationships allow Salesforce to track the full customer lifecycle, from initial contact to sales and post-sale support.
 
-
+![Salesforce Objects Diagram](salesforce-objects-diagram.drawio.png)
 ---
 
 ## Exercise 6 – Salesforce Concepts
-(ACÁ DESPUÉS VAN LAS DEFINICIONES)
+
+### Salesforce Solutions
+
+A. What is Salesforce?  
+Salesforce is a cloud-based SaaS platform used to manage customer relationships, business processes and data across sales, service and marketing.
+
+B. What is Sales Cloud?  
+Sales Cloud is a Salesforce solution focused on managing leads, opportunities, accounts and the sales pipeline.
+
+C. What is Service Cloud?  
+Service Cloud is a solution designed to manage customer support, cases, and service channels.
+
+D. What is Health Cloud?  
+Health Cloud is a Salesforce solution tailored for the healthcare industry, focused on patient data and care processes.
+
+E. What is Marketing Cloud?  
+Marketing Cloud is used to manage marketing campaigns, automation and customer communications.
+
+---
+
+### Salesforce Functionalities
+
+A. What is a Record Type?  
+A Record Type allows different business processes, layouts and picklist values for the same object.
+
+B. What is a Report Type?  
+A Report Type defines which records and related objects are available in a report.
+
+C. What is a Page Layout?  
+A Page Layout controls the visual layout of fields and sections in a record.
+
+D. What is a Compact Layout?  
+A Compact Layout defines the key fields shown in highlights and mobile views.
+
+E. What is a Profile?  
+A Profile defines user permissions, access to objects, fields and functionalities.
+
+F. What is a Role?  
+A Role defines data visibility and hierarchy between users.
+
+G. What is a Validation Rule?  
+A Validation Rule prevents saving incorrect or incomplete data.
+
+H. What is a Sandbox?  
+A Sandbox is a testing environment used to validate changes before production.
+
+I. Difference between Master-Detail and Lookup relationships?  
+Master-Detail is a dependent relationship where the child depends on the parent.  
+Lookup is a flexible relationship where records can exist independently.
+
+J. What is a Change Set?  
+A Change Set is used to deploy configuration changes between Salesforce environments.
+
+K. What is the Import Wizard used for?  
+It is used to import data into Salesforce using guided steps.
+
+L. What is Web to Lead used for?  
+It captures leads from web forms directly into Salesforce.
+
+M. What is Web to Case used for?  
+It creates support cases from web forms.
+
+N. What is Omnichannel used for?  
+It routes work items across multiple service channels efficiently.
+
+O. What is Chatter used for?  
+It enables internal collaboration and communication between users.
+
+---
+
+### General Concepts
+
+A. What does SaaS mean?  
+Software delivered as a service over the internet.
+
+B. Is Salesforce SaaS?  
+Yes, Salesforce is a SaaS platform.
+
+C. What does Cloud mean?  
+Applications and data hosted on remote servers accessed via internet.
+
+D. What does On-Premise mean?  
+Software installed and maintained on local servers.
+
+E. What is a sales pipeline?  
+A visual representation of sales opportunities by stage.
+
+F. What is a sales funnel?  
+A model that represents the customer journey from leads to closed deals.
+
+G. What is Customer Experience (CX)?  
+The overall experience a customer has with a company.
+
+H. What does omnichannel mean?  
+Providing a unified experience across multiple communication channels.
+
+I. What is B2B, B2C and a KPI?  
+B2B: Business to Business.  
+B2C: Business to Consumer.  
+KPI: Key Performance Indicator used to measure performance.
+
+J. What is an API and how is it different from a REST API?  
+An API enables system communication. REST API is a type of API using HTTP and REST principles.
+
+K. What is a Batch Process?  
+A process that executes large volumes of data asynchronously.
+
+L. What is Kanban?  
+A visual workflow management method.
+
+M. What is an ERP?  
+A system that manages core business processes such as finance and inventory.
+
+N. Is Salesforce an ERP?  
+No, Salesforce is not an ERP, but it can integrate with ERP systems.
+
 
 ---
 
